@@ -8,7 +8,7 @@ a=1
 check=0
 while a!=t+1:
 	start=int(time.clock()-check)			
-	check=start
+	check=int(time.clock())
 	while start!=1:
 		start=int(time.clock()-check)
 	os.system("clear")
@@ -16,17 +16,3 @@ while a!=t+1:
 	check=time.clock()
 	a+=1
 os.system("say 'beep beep beep beep beep. Time is up.'")
-print time.clock()
-
-
-
-
-'''
-a=int(time.clock())
-while a!=t:
-	if (time.clock()-int(time.clock()))==0:
-		os.system ("clear")
-		print "%s:%s:%s" %(a/3600,(a%3600)/60,a-a/3600-(a%3600)/60)
-	a=int(time.clock())
-os.system("say 'beep beep beep beep beep. Time is up.'")
-'''
