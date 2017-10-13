@@ -10,7 +10,7 @@ s=0
 a=0
 check=0
 while a!=t:
-	start=int(time.clock()-check)			
+	start=int(time.clock()-check)					#your time starts now		
 	check=int(time.clock())
 	while start!=1:
 		start=int(time.clock()-check)
@@ -25,4 +25,4 @@ while a!=t:
 	print "%s:%s:%s" %(h,m,s)
 	check=time.clock()
 	a+=1
-os.system("say 'beep beep beep beep beep. Time is up.'")
+os.system("say 'beep beep beep beep beep. Time is up.'")		#your time is up
