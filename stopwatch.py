@@ -26,3 +26,4 @@ while a!=t:
 	check=time.clock()
 	a+=1
 os.system("say 'beep beep beep beep beep. Time is up.'")		#your time is up
+# code ends here
